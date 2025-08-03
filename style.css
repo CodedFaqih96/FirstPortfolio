@@ -503,7 +503,7 @@ font-family:'Times New Roman', Times, serif;
 
 .navMenu {
     position:fixed;
-    background-color:var(--bg-color-sides);
+    background-color:var(--bg-color-one);
     height:100%;
     width:200px;
     top:0;
