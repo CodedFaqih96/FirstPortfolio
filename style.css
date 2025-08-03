@@ -48,7 +48,7 @@ body {
 
 .header img {
     width:55px;
-    height:25;
+    height:25px;
 }
 
 .header .bx {
@@ -91,10 +91,11 @@ span {
 .home {
     position:relative;
     height:100vh;
-    width:100%; background-image:linear-gradient(rgba(0,0,0,0.7)), url("vinblack.jpg");
+    width:100%; 
+    background-image:linear-gradient(rgba(0,0,0,0.7)), url("vinblack.jpg");
     background-position:center;
     background-size:cover;
-    display:flex:
+    display:flex;
     align-items:center;
     justify-content:center;
 }
@@ -406,7 +407,7 @@ font-family:'Times New Roman', Times, serif;
 .contact-form form .submit{
     width:150px;
     display:inline-block;
-    font-size:16;
+    font-size:16px;
     background-color:var(--main-color);
     color:var(--text-color-one);
     transition:all .45s ease;
@@ -509,7 +510,6 @@ font-family:'Times New Roman', Times, serif;
     width:200px;
     top:0;
     right:-200px;
-    z-index:2;
     transition:all .45s ease;
     text-align:center;
 }
@@ -529,41 +529,6 @@ font-family:'Times New Roman', Times, serif;
     font-size:20px;
     transition: all .45s ease;
     color:var(--text-color-one);
-}
-
-@media (min-width: 701px) {
-  .navMenu {
-    position: static;
-    width: auto;
-    height: auto;
-    right: auto;
-    background-color: transparent;
-    text-align: right;
-    display: block;
-  }
-
-  .navMenu ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0;
-  }
-
-  .navMenu ul li {
-    display: inline-block;
-    margin: 0 15px;
-    padding: 0;
-  }
-
-  .navMenu a {
-    font-size: 14px;
-    color: var(--text-color-two);
-    margin: 0;
-  }
-
-  .header .bx {
-    display: none;
-  }
 }
 
 @media (max-width:480px) {
