@@ -475,8 +475,7 @@ font-family:'Times New Roman', Times, serif;
        height:87vh;
    }
    
-   .home-content h3{
-       
+   .home-content h3{    
        font-size:2.3rem;
    }
 }
@@ -485,12 +484,12 @@ font-family:'Times New Roman', Times, serif;
    .about,.contact {
        grid-template-columns:1fr;
    }
-}
 
 .about-img img {
     width:100%;
     height:auto;
     max-width:100%;
+}
 }
 
 @media (max-width:700px) {
@@ -501,7 +500,6 @@ font-family:'Times New Roman', Times, serif;
        font-size:30px;
        cursor: pointer;
    }
-}
 
 .navMenu {
     position:fixed;
@@ -522,13 +520,13 @@ font-family:'Times New Roman', Times, serif;
     display:block;
 }
 
-
 .navMenu a {
     display:block;
     margin:17px;
     font-size:20px;
     transition: all .45s ease;
     color:var(--text-color-one);
+}
 }
 
 @media (max-width:480px) {
