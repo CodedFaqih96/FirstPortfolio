@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">  
+</head>
+
+<body>
+   <!---------header----------->
+   <header class="header">
+     <a href="#"><img src="Cf96.png" alt="logo" ></a>
+  <div class="navMenu" id="navMenu">
+      <i class="bx bx-window-close" onclick="closeMenu()"></i>
+  
+   <ul>
+    <li><a href="index.html">Home</a></li> 
+    <li><a href="about.html">About</a></li> 
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>     
+       </ul>      
+    </div>
+<i class="bx bx-menu" onclick="openMenu()"></i>
+   </header>
+    
+    <!---------sub-header----------->
+    <section class="sub-header" id="sub-header">
+    <h1>Contact<span> Me</span></h1>
+        
+        
+    </section>
+    
+   <!-------contact section-----------> 
+   
+   <section class="map">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.1081932740603!2d-4.965743524441136!3d34.01543367317089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9f8c8eec001edb%3A0xdc241d0a290c21b3!2sRiad%20Fez%20neighborhood!5e0!3m2!1sen!2sma!4v1754201416104!5m2!1sen!2sma"></iframe>
+   </section>
+   
+   <section class="contact" id="contact">
+   <div class="contact-text">
+       
+    
+    <h4 class="dot">Whatever your project may be...</h4>
+    <p>As a seasoned VA and Frontend Developer, I'm skilled at turning ideas into reality. Let's discuss your project and see how best I can help</p>   
+   <div class="list">
+    <li><a href="#">+212123456789</a></li>   
+    <li><a href="#">obatech96@gmail.com</a></li>   
+ <li><a href="#">Like, Share & Subscribe</a></li>     
+   </div>  
+   
+  <div class="icons">
+<a href="#"><i class='bx bxl-facebook'></i></a> 
+ <a href="#"><i class='bx bxl-twitter'></i></a> 
+  <a href="#"><i class='bx bxl-instagram-alt'></i></a> 
+  <a href="#"><i class='bx bxl-youtube'></i></a>    
+  </div> 
+  
+   </div>    
+       
+  <div class="contact-form">
+   <form action="">
+       
+ <input type="name" placeholder="Your Name" required>
+ <input type="email" placeholder="Your Email" required>
+ <input type="number" placeholder="Your Mobile Number" required> 
+<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You?" required></textarea>
+<input type="submit" value="Send Message" class="submit" >     
+   </form>
+  </div>        
+  </section> 
+    
+    
+      
+  <!-------Footer section -----------> 
+  <footer class="footer">
+   <div class="attribution">
+<p>Designed With<i class="bx bx-heart"></i> By CodedFaqih</p>
+  </div>
+      
+  <div class="move-up">
+<a href="#sub-header"><i class='bx bx-up-arrow-alt'></i> </a>    
+  </div>  
+        
+  </footer>
+  
+  <!-- JS for toggle menu -->
+  <script>
+      
+      var navMenu = document.getElementById("navMenu");
+      
+      function openMenu() {
+          navMenu.style.right = "0";
+      }
+      
+function closeMenu() {
+          navMenu.style.right = "-200px";
+      }      
+      
+  </script>
+</body>
+</html>
